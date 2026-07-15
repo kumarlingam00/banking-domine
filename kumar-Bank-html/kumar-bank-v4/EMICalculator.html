@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+</head>
+
+<body>
+    <header >
+        <h1>
+            <center>
+                <font color="red">KUMAR</font>
+                <font color="blue">BANK</font>
+            </center>
+        </h1>
+        <nav align="center">
+            <a href="index.html">About Us</a> &nbsp; &nbsp;
+            <a href="loans.html"> Loans Services</a> &nbsp; &nbsp;
+            <a href="branches.html"> Branch Network</a> &nbsp; &nbsp;
+            <a href="CustomerRegisterForm.html" >Registration</a>&nbsp; &nbsp;
+            <a href="InternetBanking.html"> Interner Banking </a>&nbsp; &nbsp;
+            <a href="LoanEligibility.html" >Loan Eligibility</a>&nbsp; &nbsp;
+            <a href="#">EMI Calculator </a>&nbsp;&nbsp;
+            <a href="CreditCardApply.html">Credit Card Application</a>&nbsp;&nbsp;
+            <a href="Branchfeedback.html">Feedback</a>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <form action="ABCserverurl" method="get" name="EMI Calculate">
+               <center> <caption><h1>EMI Calculator</h1></caption></center>
+                <table align="center" border="1px" cellpadding="4">
+                    <tr>
+                        <td><label for="label1"> Loan Amount </label> </td>
+                        <td><input type="number" id="label1" name="Loanamont"> </td>
+                    </tr>
+                      <tr>
+                        <td><label for="label2" > Interest Rate(%) </label> </td>
+                        <td> <input type="number" id="label2" name="interRate"> </td>
+                    </tr>
+                      <tr>
+                        <td> <label for="label3"> Loan Tenure </label> </td>
+                        <td> <input type="number" id="label3" name="Tenur"> </td>
+                    </tr>
+                      <tr>
+                        <td><label > Tenure Type </label> </td>
+                        <td><select id="tenurtype" name="tenurtype">
+                            <option value="Months">Months</option>
+                            <option value="Days">Days</option>
+                            <option value="Years">Years</option>
+                        </select> </td>
+                    </tr>
+                      <tr>
+                        <td><label for="label4">EMI Start Date</label> </td>
+                        <td><input type="date" id="label4" name="startdate"> </td>
+                    </tr>
+                      <tr>
+                        <td><input type="submit" value="Calculate"> </td>
+                        <td><input type="reset" value="Reset"> </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+            
+    </main>
+    <br><br><br><br>
+    <hr>
+    <footer>
+        <h1>
+            <center>
+                <font color="red">CopyRights@</font>
+                <font color="green">Kumar</font>
+            </center>
+        </h1>
+    </footer>
+</body>
+
+</html>

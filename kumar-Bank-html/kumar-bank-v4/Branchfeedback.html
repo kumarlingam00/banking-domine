@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <center>
+                <font color="red">KUMAR</font>
+                <font color="blue">BANK</font>
+            </center>
+        </h1>
+        <nav align="center">
+            <a href="index.html">About Us</a> &nbsp; &nbsp;
+            <a href="loans.html"> Loans Services</a> &nbsp; &nbsp;
+            <a href="branches.html"> Branch Network</a> &nbsp; &nbsp;
+            <a href="CustomerRegisterForm.html">Registration</a>&nbsp; &nbsp;
+            <a href="InternetBanking.html"> Interner Banking </a>&nbsp; &nbsp;
+            <a href="LoanEligibility.html">Loan Eligibility</a>&nbsp;&nbsp;
+            <a href="EMICalculator.html">EMI Calculator </a>&nbsp;&nbsp;
+            <a href="CreditCardApply.html">Credit Card Application</a>&nbsp;&nbsp;
+            <a href="#">Feedback</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <form action="ABCserverurl" method="get" name="feedback">
+             <center> <caption><h1>Branch Feedback</h1></caption></center>
+            <table align="center" border="1px" cellpadding="4">
+                <tr>
+                    <td> <label for="label1">Name</label></td>
+                    <td><input type="text" id="label1" name="neme"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="label2"> Email </label></td>
+                    <td><input type="text" id="label2" name="mailid"> </td>
+                </tr>
+                <tr>
+                    <td><label for="label3">Branch </label> </td>
+                    <td><select name="branch" id="label3">
+                            <option value="select">select</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="SR Nagar">SR Nagar</option>
+                            <option value="Ameerpet">Ameerpet</option>
+                            <option value="Vizag">Vizag</option>
+                        </select> </td>
+                </tr>
+                <tr>
+                    <td> <label for="label4">Visit Date</label></td>
+                    <td> <input type="date" id="label4" name="vdate"></td>
+                </tr>
+                <tr>
+                    <td><label> Rating </label> </td>
+                    <td> <input type="radio" id="Excellent" name="rating">Excellent
+                        <input type="radio" id="good" name="rating">Good
+                        <input type="radio" id="avarage" name="rating">Average
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Services Used</label> </td>
+                    <td><input type="checkbox" id="atm" name="se">ATM
+                        <input type="checkbox" id="loan" name="se">Loan
+                        <input type="checkbox" id="Account" name="se">Account
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="label5">Suggestions</label></td>
+                    <td><textarea name="feed" id="label5" rows="3" cols="17"></textarea> </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"> </td>
+                    <td> <input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <br><br><br><br>
+    <hr>
+    <footer>
+        <h1>
+            <center>
+                <font color="red">CopyRights@</font>
+                <font color="green">Kumar</font>
+            </center>
+        </h1>
+    </footer>
+</body>
+
+</html>
